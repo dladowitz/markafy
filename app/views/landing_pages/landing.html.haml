@@ -528,13 +528,13 @@
             .col-sm-6
               .form-group
                 %label.sr-only Subject
-                = text_field_tag "subject", nil, placeholder: "Subject", class: "form-control"
+                = text_field_tag "subject", nil, placeholder: "Subject", class: "form-control", disabled: true
               .form-group
                 %label.sr-only Name
-                = text_field_tag "name", nil, placeholder: "Name", class: "form-control"
+                = text_field_tag "name", nil, placeholder: "Name", class: "form-control", disabled: true
               .form-group
                 %label.sr-only Email
-                = email_field_tag "email", nil, placeholder: "Email", class: "form-control"
+                = email_field_tag "email", nil, placeholder: "Email", class: "form-control", disabled: true
             .col-sm-6
               .form-group
                 %label.sr-only Message
