@@ -332,9 +332,9 @@
         .carousel-inner
           .item.active
             %blockquote
-              %p I love the new types of pens and erasers I get to try out
+              %p 100% of Tenjin's success has been attributed to markers.
               %small
-                Mark Mulholland
+                Amir Manji
                 %cite{:title => "Source Title"}
           .item
             %blockquote
@@ -350,7 +350,7 @@
                 %cite{:title => "Source Title"} working at a startup
         %ol.carousel-indicators
           %li.active{"data-slide-to" => "0", "data-target" => "#carousel-example-generic"}
-            %img.img-circle{:alt => "", :height => "64", :src => "assets/landing_page/mark.jpg", :width => "64"}/
+            %img.img-circle{:alt => "", :height => "64", :src => "assets/landing_page/amir.jpg", :width => "64"}/
           %li{"data-slide-to" => "1", "data-target" => "#carousel-example-generic"}
             %img.img-circle{:alt => "", :height => "64", :src => "assets/landing_page/jack.jpg", :width => "64"}/
           %li{"data-slide-to" => "2", "data-target" => "#carousel-example-generic"}
@@ -539,7 +539,7 @@
               .form-group
                 %label.sr-only Message
                 = text_area_tag "message", nil, placeholder: "Message", class: "form-control", :rows => "6", :style => "height: 100px"
-          %button.btn.btn-default{:type => "submit"} Send message
+          %button.btn.btn-default{:type => "submit", disabled: true} Send message
 
   %section.section.section-center.section-cta.pt10.pb20
     .container

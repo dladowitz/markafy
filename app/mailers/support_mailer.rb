@@ -1,5 +1,5 @@
 class SupportMailer < ApplicationMailer
-  default to: ["david@tradecrafted.com", "marshall@tradecrafted.com"]
+  default to: ["david@ladowitz.com", "marshall@tradecrafted.com"]
   # layout "user_mailer"  # css is not showing up properly when using a layout
 
   def contact_us_email(options)
