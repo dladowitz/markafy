@@ -1,3 +1,18 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id              :integer          not null, primary key
+#  first_name      :string
+#  last_name       :string
+#  email           :string
+#  password_digest :string
+#  admin           :boolean
+#  created_at      :datetime
+#  updated_at      :datetime
+#  stripe_id       :string
+#
+
 require 'rails_helper'
 
 describe UsersController do

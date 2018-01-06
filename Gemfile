@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.2'
+ruby '2.3.6'
 gem 'rails', '4.2.2'
 
 gem 'bcrypt'
@@ -40,7 +40,7 @@ group :development, :test do
   gem 'letter_opener'
   gem 'pry-byebug'
   gem 'quiet_assets'
-  gem 'rspec-rails', '~> 3.0.0'
+  gem 'rspec-rails'
   gem 'sqlite3'
 end
 
