@@ -21,7 +21,7 @@ class UserMailer < ApplicationMailer
   def signup_alert_email(user)
     @user = user
 
-    mail(to: ["david@tradecrafted.com", "marshall@tradecrafted.com"], subject: "Markafy - Signup")
+    mail(to: ["david@ladowitz.com", "darr.marshall@gmail.com"], subject: "Markafy - Signup")
   end
 
   def request_password(user, token)

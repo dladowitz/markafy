@@ -1,5 +1,5 @@
 class SubscriptionMailer < ApplicationMailer
-  default to: ["david@tradecrafted.com", "marshall@tradecrafted.com"]
+  default to: ["david@ladowitz.com", "darr.marshall@gmail.com"]
   # layout "user_mailer"  # css is not showing up properly when using a layout
 
   def new_subscription_alert_email(user, subscription)
