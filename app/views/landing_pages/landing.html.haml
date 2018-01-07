@@ -521,7 +521,7 @@
     .container
       %h2.section-title
         %span Contact Us
-      %p Want to say hello? Want to know more about us? Give us a call or drop us an email.
+      %p Want to say hello? Want to know more about us? Drop us an email.
       .main-action
         = form_tag(contact_us_path, :role => "form") do
           .row
@@ -538,7 +538,7 @@
             .col-sm-6
               .form-group
                 %label.sr-only Message
-                = text_area_tag "message", nil, placeholder: "Hmmm, cats have taken over our mail system for the moment. Email 'david+markafy@ladowitz.com' for all marker related emergencies.", class: "form-control", :rows => "6", :style => "height: 100px"
+                = text_area_tag "message", nil, placeholder: "Message", class: "form-control", :rows => "6", :style => "height: 100px"
           %button.btn.btn-default{:type => "submit"} Send message
 
   %section.section.section-center.section-cta.pt10.pb20

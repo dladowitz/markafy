@@ -17,6 +17,23 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.delivery_method       = :letter_opener
 
+  #### Mailer Optipns - Uncomment to test through mailgun. Username: dxxxd@laxxxxxz.com
+  # config.action_mailer.delivery_method = :smtp
+  #
+  # config.action_mailer.default_url_options = {
+  #   :host => "markafy.com"
+  # }
+  #
+  # # mailgun, not really sure what mailgun account this is using. Maybe some default thing from heroku?
+  # config.action_mailer.smtp_settings = {
+  #   :port           => ENV['MAILGUN_SMTP_PORT'],
+  #   :address        => ENV['MAILGUN_SMTP_SERVER'],
+  #   :user_name      => ENV['MAILGUN_SMTP_LOGIN'],
+  #   :password       => ENV['MAILGUN_SMTP_PASSWORD'],
+  #   :domain         => 'markafy.com',
+  #   :authentication => :plain,
+  # }
+
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
